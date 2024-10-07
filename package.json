@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "next build",
+        "dev": "next dev",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.13.3",
+        "@emotion/styled": "^11.13.0",
+        "@mui/icons-material": "^6.0.1",
+        "@mui/joy": "^5.0.0-beta.48",
+        "@mui/material": "^6.0.1",
+        "@mui/x-charts": "^7.15.0",
+        "async_hooks": "^1.0.0",
+        "axios": "^1.7.7",
+        "express": "^4.19.2",
+        "iron-session": "^8.0.3",
+        "net": "^1.0.2",
+        "next": "latest",
+        "prototype": "^0.0.5",
+        "querystring": "^0.2.1",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "zustand": "^4.5.5"
+    },
+    "engines": {
+        "node": ">=18"
+    }
+}
