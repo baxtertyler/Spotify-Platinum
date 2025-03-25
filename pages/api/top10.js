@@ -20,7 +20,6 @@ export default async function handler(req, res) {
         token
     );
 
-    // Fetch top songs (this is from spotfiy!!)
     const topSongsData = await getSpotifyData(
         "https://api.spotify.com/v1/playlists/37i9dQZEVXbNG2KDcFcKOF/tracks",
         token
